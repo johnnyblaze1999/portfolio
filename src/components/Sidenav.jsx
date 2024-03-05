@@ -20,7 +20,7 @@ const Sidenav = () => {
                 <AiOutlineHome size={20}/>
                 <span className='pl-4'>Home</span>
               </a>
-              <a href="#main" className='w-[75%] flex justify-center items-center border-b-4 border-emerald-300 rounded-lg hover:border-r-4 hover:shadow-inner hover:shadow-emerald-200 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-150'>
+              <a href="#projects" className='w-[75%] flex justify-center items-center border-b-4 border-emerald-300 rounded-lg hover:border-r-4 hover:shadow-inner hover:shadow-emerald-200 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-150'>
                 <AiOutlineProject size={20}/>
                 <span className='pl-4'>Projects</span>
               </a>
@@ -28,7 +28,7 @@ const Sidenav = () => {
                 <BsPerson size={20}/>
                 <span className='pl-4'>Resume/CV</span>
               </a>
-              <a href="#main" className='w-[75%] flex justify-center items-center border-b-4 border-emerald-300 rounded-lg hover:border-r-4 hover:shadow-inner hover:shadow-emerald-200 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-150'>
+              <a href="#contact" className='w-[75%] flex justify-center items-center border-b-4 border-emerald-300 rounded-lg hover:border-r-4 hover:shadow-inner hover:shadow-emerald-200 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-150'>
                 <AiOutlineMail size={20}/>
                 <span className='pl-4'>Contacts</span>
               </a>
@@ -39,10 +39,19 @@ const Sidenav = () => {
           )
         }
 
-        <div className='md:block hidden fixed top-[25%] z-10'>
+        <div className='md:block hidden fixed top-[35%] z-10'>
           <div className='flex flex-col'>
-            <a href="#main" className='rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-150'>
-              <AiOutlineHome/>
+            <a href="#main" className='bg-white m-2 p-4 border-b-4 border-emerald-300 cursor-pointer hover:border-r-4 hover:shadow-emerald-200 hover:scale-110  ease-in duration-150'>
+              <AiOutlineHome size={20}/>
+            </a>
+            <a href="#projects" className='bg-white m-2 p-4 border-b-4 border-emerald-300 cursor-pointer hover:border-r-4 hover:shadow-emerald-200 hover:scale-110  ease-in duration-150'>
+              <AiOutlineProject size={20}/>
+            </a>
+            <a href="#main" className='bg-white m-2 p-4 border-b-4 border-emerald-300 cursor-pointer hover:border-r-4 hover:shadow-emerald-200 hover:scale-110  ease-in duration-150'>
+              <BsPerson size={20}/>
+            </a>
+            <a href="#contact" className='bg-white m-2 p-4 border-b-4 border-emerald-300 cursor-pointer hover:border-r-4 hover:shadow-emerald-200 hover:scale-110  ease-in duration-150'>
+              <AiOutlineMail size={20}/>
             </a>
           </div>
         </div>
