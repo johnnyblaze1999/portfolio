@@ -41,16 +41,16 @@ const Sidenav = () => {
 
         <div className='md:block hidden fixed top-[35%] z-10'>
           <div className='flex flex-col'>
-            <a href="#main" className='bg-white m-2 p-4 border-b-4 border-emerald-300 cursor-pointer hover:border-r-4 hover:shadow-emerald-200 hover:scale-110  ease-in duration-150'>
+            <a href="#main" className='bg-white rounded-xl m-2 p-4 cursor-pointer shadow-lg hover:shadow-emerald-200 hover:scale-110 ease-in duration-150'>
               <AiOutlineHome size={20}/>
             </a>
-            <a href="#projects" className='bg-white m-2 p-4 border-b-4 border-emerald-300 cursor-pointer hover:border-r-4 hover:shadow-emerald-200 hover:scale-110  ease-in duration-150'>
+            <a href="#projects" className='bg-white rounded-xl m-2 p-4 cursor-pointer shadow-lg hover:shadow-emerald-200 hover:scale-110 ease-in duration-150'>
               <AiOutlineProject size={20}/>
             </a>
-            <a href="#main" className='bg-white m-2 p-4 border-b-4 border-emerald-300 cursor-pointer hover:border-r-4 hover:shadow-emerald-200 hover:scale-110  ease-in duration-150'>
+            <a href="#main" className='bg-white rounded-xl m-2 p-4 cursor-pointer shadow-lg hover:shadow-emerald-200 hover:scale-110 ease-in duration-150'>
               <BsPerson size={20}/>
             </a>
-            <a href="#contact" className='bg-white m-2 p-4 border-b-4 border-emerald-300 cursor-pointer hover:border-r-4 hover:shadow-emerald-200 hover:scale-110  ease-in duration-150'>
+            <a href="#contact" className='bg-white rounded-xl m-2 p-4 cursor-pointer shadow-lg hover:shadow-emerald-200 hover:scale-110 ease-in duration-150'>
               <AiOutlineMail size={20}/>
             </a>
           </div>
@@ -60,3 +60,4 @@ const Sidenav = () => {
 }
 
 export default Sidenav;
+/** */
