@@ -27,8 +27,12 @@ const Main = () => {
                     I'm a Software Engineer
                 </h2>
                 <div className='flex justify-between pt-6 max-w-[200px] w-24'>
-                    <FaGithub className='cursor-pointer p-2 hover:scale-110 rounded-xl ease-out duration-150' size={50}/>
-                    <FaLinkedinIn className='cursor-pointer p-2 hover:scale-110 rounded-xl ease-out duration-150' size={50}/>
+                    <a href='https://github.com/johnnyblaze1999' target='_blank' rel='noopener noreferrer'>
+                        <FaGithub className='cursor-pointer p-2 hover:scale-110 rounded-xl ease-out duration-150' size={50}/>
+                    </a>
+                    <a href='https://www.linkedin.com/in/kevinnguyennorco/' target='_blank' rel='noopener noreferrer'>
+                        <FaLinkedinIn className='cursor-pointer p-2 hover:scale-110 rounded-xl ease-out duration-150' size={50}/>
+                    </a>
                 </div>
             </div>
 

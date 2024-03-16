@@ -1,6 +1,7 @@
 import React from 'react'
 import ProjectItem from './ProjectItem'
 import placeholderImg from '../assets/placeholder.png'
+
 /** import propertyImg from '../assets/property.jpg'
 import cryptoImg from '../assets/crypto.jpg'
 import netflixImg from '../assets/netflix.jpg'
@@ -17,6 +18,7 @@ const Projects = () => {
         </p>
         <div className='grid sm:grid-cols-2 gap-12'>
             <ProjectItem img={placeholderImg} title = 'Personal Portfolio'/>
+            <ProjectItem img={placeholderImg} title = 'Unity Game'/>
             <ProjectItem img={placeholderImg} title = 'Fullyhack Chrome Extension'/>
             <ProjectItem img={placeholderImg} title = 'BotPress Chatbot'/>
             <ProjectItem img={placeholderImg} title = 'School Database'/>
