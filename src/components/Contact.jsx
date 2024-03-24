@@ -32,7 +32,6 @@ const Contact = () => {
         <div className='bg-[#FFAF99]' style={{ overflow: 'hidden', height: 'calc(100vh - 300px)' }}>
             <iframe
                 id="JotFormIFrame-240828238793063"
-                title="Contact Me"
                 src="https://form.jotform.com/240828238793063"
                 style={{ 
                 minWidth: '100%', 

@@ -14,7 +14,7 @@ const ProjectItem = ({img, title, description, url, tools}) => {
               </h3>
               <div className='flex justify-center space-x-2'>
                 {toolList.map((tool, index) => (
-                  <button key={index} className='px-2 my-2 py-1 bg-[#FFAF99] text-white text-sm rounded-full'>{tool}</button>
+                  <button key={index} className='px-2 my-2 py-1 bg-[#ECA19D] text-white text-sm rounded-full'>{tool}</button>
                 ))}
               </div>
               <a href={url} target='_blank' rel='noopener norefferer'>
