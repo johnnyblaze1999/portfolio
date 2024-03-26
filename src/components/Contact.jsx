@@ -23,25 +23,40 @@ const Contact = () => {
     }
   }, []);
 
+  useEffect(() => {
+    const updateMarginBottom = () => {
+      if (window.innerWidth >= 3840){
+        iframeRef.current.style.marginBottom = '-1200px';
+      }
+      else if (window.innerWidth >= 2048) {
+        iframeRef.current.style.marginBottom = '-300px';
+      } 
+      else {
+        iframeRef.current.style.marginBottom = '-100px';
+      }
+    };
+
+    window.addEventListener('resize', updateMarginBottom);
+    updateMarginBottom();
+
+    return () => {
+      window.removeEventListener('resize', updateMarginBottom);
+    };
+  }, []);
+
   return (
     <div id='contact'>
         <Slide triggerOnce className='m-auto md:pl-20 pt-16 bg-[#FFAF99]'>
             <h1 className='pt-4 text-4xl font-bold text-center text-[#001b5e]'>Contact</h1>
         </Slide>
         
-        <div className='bg-[#FFAF99]' style={{ overflow: 'hidden', height: 'calc(100vh - 300px)' }}>
+        <div className='bg-[#FFAF99] relative flex items-center justify-center h-auto w-full overflow-hidden'>
             <iframe
+                ref={iframeRef}
                 id="JotFormIFrame-240828238793063"
                 src="https://form.jotform.com/240828238793063"
-                style={{ 
-                minWidth: '100%', 
-                maxWidth: '100%', 
-                height: 'calc(100vh + 300px)', 
-                border: 'none',
-                marginBottom: '-300px',
-                marginLeft: '30px'
-                }}
-                scrolling="no"
+                className='w-full h-screen'
+                scrolling="yes"
             />
         </div>
 

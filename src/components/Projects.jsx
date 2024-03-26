@@ -26,7 +26,7 @@ const Projects = () => {
         </Fade>
         
         <div className='grid sm:grid-cols-2 gap-12'>
-            <ProjectItem img={portfolioImg} title = 'Personal Portfolio' description='My personal portfolio webpage showcasing my skills, experiences, and projects.' url='/' tools='ReactJS, Vite, TailwindCSS'/>
+            <ProjectItem img={portfolioImg} title = 'Personal Portfolio' description='My personal portfolio webpage showcasing my skills, experiences, and projects.' url='https://johnnyblaze1999.github.io/portfolio' tools='ReactJS, Vite, TailwindCSS'/>
             <ProjectItem img={placeholderImg} title = 'Unity Game' description='A fun desktop game where the player dodges incoming projectiles and survive under the time limit.' url='/' tools='Unity, C#'/>
             <ProjectItem img={placeholderImg} title = 'Fullyhack Chrome Extension' description="A chrome extension that return the weather status in real-time base on the given city's name. This is a 24h project for FullyHack" url='https://github.com/Fullyhacks2024/Fullyhacks_Project' tools='HTML, CSS, Javascript'/>
             <ProjectItem img={aichatbotImg} title = 'BotPress Chatbot' description="AI Chatbot that use a given dataset along with clever prompt engineering to assist customers for a quicker and better customer service." url='https://github.com/johnnyblaze1999/CapstonePrototype' tools='Javascript, BotPress, AI'/>
