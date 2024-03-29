@@ -8,3 +8,13 @@ Current page status:
 - ✅ Contact Component
 - 🚧 Education Component
 - 🚫 About Me Component
+## Getting Started
+Download this repository and run the development server
+```
+npm run dev
+```
+or
+```
+yarn dev
+```
+...
