@@ -25,10 +25,10 @@ const Contact = () => {
 
   useEffect(() => {
     const updateMarginBottom = () => {
-      if (window.innerWidth >= 3840){
+      if (window.innerHeight >= 2160){
         iframeRef.current.style.marginBottom = '-1200px';
       }
-      else if (window.innerWidth >= 2048) {
+      else if (window.innerHeight >= 1240) {
         iframeRef.current.style.marginBottom = '-300px';
       } 
       else {
@@ -47,7 +47,7 @@ const Contact = () => {
   return (
     <div id='contact'>
         <Slide triggerOnce className='m-auto md:pl-20 pt-16 bg-[#FFAF99]'>
-            <h1 className='pt-4 text-4xl font-bold text-center text-[#001b5e]'>Contact</h1>
+            <h1 className='pt-4 text-4xl font-bold text-center text-[#001b5e]'>Contact Me</h1>
         </Slide>
         
         <div className='bg-[#FFAF99] relative flex items-center justify-center h-auto w-full overflow-hidden'>
