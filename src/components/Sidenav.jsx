@@ -2,7 +2,6 @@ import React, {useState} from 'react';
 import {AiOutlineMenu, AiOutlineHome, AiOutlineProject, AiOutlineMail} from 'react-icons/ai';
 import {BsPerson} from 'react-icons/bs';
 import { HiOutlineAcademicCap } from "react-icons/hi2";
-import { TypeAnimation } from 'react-type-animation';
 
 
 const Sidenav = () => {
@@ -48,23 +47,23 @@ const Sidenav = () => {
         <div className='flex flex-col'>
           <a href="#main" className='group bg-white rounded-xl m-2 p-4 cursor-pointer shadow-lg hover:shadow-emerald-200 hover:scale-110 ease-in duration-150 relative'>
             <AiOutlineHome size={20}/>
-            <span className='absolute invisible group-hover:visible text-center rounded-r-md p-1 bg-white' style={{left: '100%', top: '50%', transform: 'translateY(-50%)', width: '100px'}}>Home</span>
+            <span className='absolute invisible group-hover:visible text-center rounded-r-md p-1 bg-white shadow-[rgba(0,0,10,0.5)_5px_2px_5px_0px] shadow-emerald-200' style={{left: '100%', top: '50%', transform: 'translateY(-50%)', width: '100px'}}>Home</span>
           </a>
           <a href="#education" className='group bg-white rounded-xl m-2 p-4 cursor-pointer shadow-lg hover:shadow-emerald-200 hover:scale-110 ease-in duration-150 relative'>
             <HiOutlineAcademicCap size={20}/>
-            <span className='absolute invisible group-hover:visible text-center rounded-r-md p-1 bg-white' style={{left: '100%', top: '50%', transform: 'translateY(-50%)', width: '100px'}}>Education</span>
+            <span className='absolute invisible group-hover:visible text-center rounded-r-md p-1 bg-white shadow-[rgba(0,0,10,0.5)_5px_2px_5px_0px] shadow-emerald-200' style={{left: '100%', top: '50%', transform: 'translateY(-50%)', width: '100px'}}>Education</span>
           </a>
           <a href="#projects" className='group bg-white rounded-xl m-2 p-4 cursor-pointer shadow-lg hover:shadow-emerald-200 hover:scale-110 ease-in duration-150 relative'>
             <AiOutlineProject size={20}/>
-            <span className='absolute invisible group-hover:visible text-center rounded-r-md p-1 bg-white' style={{left: '100%', top: '50%', transform: 'translateY(-50%)', width: '100px'}}>Projects</span>
+            <span className='absolute invisible group-hover:visible text-center rounded-r-md p-1 bg-white shadow-[rgba(0,0,10,0.5)_5px_2px_5px_0px] shadow-emerald-200' style={{left: '100%', top: '50%', transform: 'translateY(-50%)', width: '100px'}}>Projects</span>
           </a>
           <a href="#about" className='group bg-white rounded-xl m-2 p-4 cursor-pointer shadow-lg hover:shadow-emerald-200 hover:scale-110 ease-in duration-150 relative'>
             <BsPerson size={20}/>
-            <span className='absolute invisible group-hover:visible text-center rounded-r-md p-1 bg-white' style={{left: '100%', top: '50%', transform: 'translateY(-50%)', width: '100px'}}>About</span>
+            <span className='absolute invisible group-hover:visible text-center rounded-r-md p-1 bg-white shadow-[rgba(0,0,10,0.5)_5px_2px_5px_0px] shadow-emerald-200' style={{left: '100%', top: '50%', transform: 'translateY(-50%)', width: '100px'}}>About</span>
           </a>
           <a href="#contact" className='group bg-white rounded-xl m-2 p-4 cursor-pointer shadow-lg hover:shadow-emerald-200 hover:scale-110 ease-in duration-150 relative'>
             <AiOutlineMail size={20}/>
-            <span className='absolute invisible group-hover:visible text-center rounded-r-md p-1 bg-white' style={{left: '100%', top: '50%', transform: 'translateY(-50%)', width: '100px'}}>Contact</span>
+            <span className='absolute invisible group-hover:visible text-center rounded-r-md p-1 bg-white shadow-[rgba(0,0,10,0.5)_5px_2px_5px_0px] shadow-emerald-200' style={{left: '100%', top: '50%', transform: 'translateY(-50%)', width: '100px'}}>Contact</span>
           </a>
         </div>
       </div>
