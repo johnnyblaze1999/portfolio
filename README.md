@@ -6,8 +6,8 @@ Current page status:
 - ✅ Navigation Bar      
 - ✅ Projects Component
 - ✅ Contact Component
-- 🚧 Education Component
-- 🚫 About Me Component
+- ✅ Education Component
+- 🚧 About Me Component
 ## Getting Started
 Download this repository and run the development server
 ```
