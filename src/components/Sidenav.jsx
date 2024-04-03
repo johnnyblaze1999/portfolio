@@ -12,27 +12,30 @@ const Sidenav = () => {
 
   return (
     <div>
-        <AiOutlineMenu onClick={handleNav} className='absolute top-4 right-4 z-[99] md:hidden'/>
+        <button className='fixed top-4 right-4 z-[99] md:hidden text-2xl bg-white p-3 rounded-lg shadow-lg active:shadow-inner active:bg-slate-100' onClick={handleNav}>
+          <AiOutlineMenu/>
+        </button>
+        
         {
           nav ? (
             <div className='fixed w-full h-screen bg-white/90 flex flex-col justify-center items-center z-20'>
-              <a href="#main" className='w-[75%] flex justify-center items-center border-b-4 border-emerald-300 rounded-lg hover:border-r-4 hover:shadow-inner hover:shadow-emerald-200 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-150'>
+              <a onClick={handleNav} href="#main" className='w-[75%] flex justify-center items-center border-b-4 border-emerald-300 rounded-lg hover:border-r-4 hover:shadow-inner hover:shadow-emerald-200 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-150'>
                 <AiOutlineHome size={20}/>
                 <span className='pl-4'>Home</span>
               </a>
-              <a href="#education" className='w-[75%] flex justify-center items-center border-b-4 border-emerald-300 rounded-lg hover:border-r-4 hover:shadow-inner hover:shadow-emerald-200 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-150'>
+              <a onClick={handleNav} href="#education" className='w-[75%] flex justify-center items-center border-b-4 border-emerald-300 rounded-lg hover:border-r-4 hover:shadow-inner hover:shadow-emerald-200 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-150'>
                 <HiOutlineAcademicCap size={20}/>
                 <span className='pl-4'>Education</span>
               </a>
-              <a href="#projects" className='w-[75%] flex justify-center items-center border-b-4 border-emerald-300 rounded-lg hover:border-r-4 hover:shadow-inner hover:shadow-emerald-200 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-150'>
+              <a onClick={handleNav} href="#projects" className='w-[75%] flex justify-center items-center border-b-4 border-emerald-300 rounded-lg hover:border-r-4 hover:shadow-inner hover:shadow-emerald-200 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-150'>
                 <AiOutlineProject size={20}/>
                 <span className='pl-4'>Projects</span>
               </a>
-              <a href="#about" className='w-[75%] flex justify-center items-center border-b-4 border-emerald-300 rounded-lg hover:border-r-4 hover:shadow-inner hover:shadow-emerald-200 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-150'>
+              <a onClick={handleNav} href="#about" className='w-[75%] flex justify-center items-center border-b-4 border-emerald-300 rounded-lg hover:border-r-4 hover:shadow-inner hover:shadow-emerald-200 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-150'>
                 <BsPerson size={20}/>
                 <span className='pl-4'>Resume/CV</span>
               </a>
-              <a href="#contact" className='w-[75%] flex justify-center items-center border-b-4 border-emerald-300 rounded-lg hover:border-r-4 hover:shadow-inner hover:shadow-emerald-200 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-150'>
+              <a onClick={handleNav} href="#contact" className='w-[75%] flex justify-center items-center border-b-4 border-emerald-300 rounded-lg hover:border-r-4 hover:shadow-inner hover:shadow-emerald-200 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-150'>
                 <AiOutlineMail size={20}/>
                 <span className='pl-4'>Contacts</span>
               </a>
