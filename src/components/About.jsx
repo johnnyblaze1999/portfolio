@@ -1,15 +1,29 @@
 import React from 'react'
+import profileImg from '../assets/profilePic.jpg'
+import { Fade } from 'react-awesome-reveal'
 
 const About = () => {
   return (
-    <div id='about' className='hero min-h-screen bg-base-200'>
-      <div className="hero-content lg:flex lg:flex-row-reverse lg:items-center lg:justify-around p-10">
-        <img src="https://daisyui.com/images/stock/photo-1635805737707-575885ab0820.jpg" className="max-w-sm rounded-lg shadow-2xl lg:mb-0 mb-10" />
+    <div id='about' className='hero bg-base-200 max-w-[1040px] mx-auto py-16'>
+      <div className="hero-content lg:flex lg:items-center lg:justify-around p-10 bg-slate-100 rounded-2xl">
         <div className="text-center lg:text-left">
-          <h1 className="text-5xl font-bold mb-4">Box Office News!</h1>
-          <p className="py-6 mb-4">Stay updated with the latest news from the world of cinema. Get insights, reviews, and more right here.</p>
-          <button className="btn btn-primary">Get Started</button>
+          <h1 className="text-5xl font-bold text-[#001b5e] mb-4">About Me</h1>
+          <p className="pt-6 px-3">Hi there 👋</p>
+          <Fade>
+            <p className="py-6 px-3 mb-4">My name is Kevin Nguyen, and my Vietnamese name is An Nguyen. I was born and raise in Vietnam, and I am an upcoming graduate Computer Science student at CSUF. With a solid foundation in computer science and hands-on experience in various projects, I thrive on tackling challenges headfirst. I love solving problems and working with others.</p>
+          </Fade>
+          
+          <a href='https://drive.google.com/file/d/13d07Sq9xcuqhNBUGooUICR0ryM3DxN2N/view' target='_blank' rel='noopener norefererrer'>
+            <button className="btn btn-primary bg-black text-white p-2 ml-3 mb-6 rounded-md transition hover:scale-110">
+              My Resume
+            </button>
+          </a>
+          
         </div>
+        <Fade>
+          <img src={profileImg} className="max-w-sm rounded-full mb-10 mx-auto hover:shadow-inner hover:shadow-emerald-400" />
+        </Fade>
+        
       </div>
     </div>
   )

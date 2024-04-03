@@ -14,7 +14,7 @@ const Footer = () => {
                             'passion',
                             5000,
                             'sweat and tears',
-                            2000
+                            200
                         ]}
                         wrapper="span"
                         speed={25}
