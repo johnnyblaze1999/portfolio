@@ -21,7 +21,8 @@ const About = () => {
           
         </div>
         <Fade>
-          <img src={profileImg} className="max-w-sm rounded-full mb-10 mx-auto hover:shadow-inner hover:shadow-emerald-400" />
+          <img src={profileImg} className="max-w-xs md:max-w-sm rounded-full mb-10 mx-auto hover:shadow-inner hover:shadow-emerald-400" />
+
         </Fade>
         
       </div>
