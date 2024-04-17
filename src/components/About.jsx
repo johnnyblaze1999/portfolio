@@ -13,7 +13,7 @@ const About = () => {
             <p className="py-6 px-3 mb-4">My name is Kevin Nguyen, and my Vietnamese name is An Nguyen. I was born and raise in Vietnam, and I am an upcoming graduate Computer Science student at CSUF. With a solid foundation in computer science and hands-on experience in various projects, I thrive on tackling challenges headfirst. I love solving problems and working with others.</p>
           </Fade>
           
-          <a href='https://drive.google.com/file/d/13d07Sq9xcuqhNBUGooUICR0ryM3DxN2N/view' target='_blank' rel='noopener norefererrer'>
+          <a href='https://docs.google.com/document/d/1mWvCLRgkO-IDdQu6hBMa-nDr0mOfUJGX/edit?usp=sharing&ouid=117820759716312772463&rtpof=true&sd=true' target='_blank' rel='noopener norefererrer'>
             <button className="btn btn-primary bg-black text-white p-2 ml-3 mb-6 rounded-md transition hover:scale-110">
               My Resume
             </button>
