@@ -9,11 +9,6 @@ import hotelWebImg from '../assets/hotelWebpage.png'
 import unityImg from '../assets/unityGame.png'
 import { Fade } from 'react-awesome-reveal';
 
-/** import propertyImg from '../assets/property.jpg'
-import cryptoImg from '../assets/crypto.jpg'
-import netflixImg from '../assets/netflix.jpg'
-import twitchImg from '../assets/twitch.jpg'**/
-
 const Projects = () => {
   return (
     <div id='projects' className='max-w-[1040px] m-auto md:pl-20 p-4 py-16'>

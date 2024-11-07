@@ -20,7 +20,14 @@ const data = [
         degree: 'Bachelor of Science in Computer Science',
         school: 'California State University, Fullerton',
         duration: 'August 2021 - May 2024',
-        details: 'Graduated with GPA 3.6'
+        details: 'Cum Laude. GPA 3.6'
+    },
+    {
+        year: '2026',
+        degree: 'Master of Science in Software Engineering',
+        school: 'California State University, Fullerton',
+        duration: 'August 2024 - May 2026',
+        details: 'Working in progress'
     }
 ]
 
